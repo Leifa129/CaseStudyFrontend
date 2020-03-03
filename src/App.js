@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Register from './Register/Register';
 import PersonList from './PersonList/PersonList';
 import {Route} from 'react-router';
