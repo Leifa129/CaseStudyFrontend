@@ -1,0 +1,29 @@
+* {
+    margin:3px;
+}
+
+#persons {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#persons td, #persons th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#persons tr:nth-child(even){background-color: #f2f2f2;}
+
+#persons tr:hover {background-color: #ddd;}
+
+#persons th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+}

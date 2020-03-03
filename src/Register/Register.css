@@ -1,0 +1,91 @@
+ .my-form {
+     margin:10px auto;
+     display:flex;
+     flex-direction: column;
+     border: 2px orange solid;
+     max-width: 500px;
+     padding: 20px 12px 10px 20px;
+     font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+                      }
+.my-form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.error{
+    color:red;
+}
+
+.my-form label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.my-form input[type=text],
+.my-form input[type=date],
+.my-form input[type=datetime],
+.my-form input[type=number],
+.my-form input[type=search],
+.my-form input[type=time],
+.my-form input[type=url],
+.my-form input[type=email],
+textarea,
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+.my-form input[type=text]:focus,
+.my-form input[type=date]:focus,
+.my-form input[type=datetime]:focus,
+.my-form input[type=number]:focus,
+.my-form input[type=search]:focus,
+.my-form input[type=time]:focus,
+.my-form input[type=url]:focus,
+.my-form input[type=email]:focus,
+.my-form textarea:focus,
+.my-form select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.my-form .field-divided{
+    width: 49%;
+}
+
+.my-form .field-long{
+    width: 100%;
+}
+.my-form .field-select{
+    width: 100%;
+}
+.my-form .field-textarea{
+    height: 100px;
+}
+.my-form input[type=submit], .my-form input[type=button]{
+    background: #4B99AD;
+    justify-content:flex-start;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.my-form input[type=submit]:hover, .my-form input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.my-form .required{
+    color:red;
+}
